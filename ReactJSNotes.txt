@@ -1,0 +1,24 @@
+
+#### React BITCHES!!!! ####
+
+One way data flow - Virtual DOM - document object model
+
+Only replaces or renders the items that are dif from DOM 
+
+JSX - Javascript and XML
+
+React in React
+
+Super Speedy! Fastest builds.
+
+Very structured code
+
+Modern Web experience
+
+Angular is googles competition with React 
+
+Server side rendering
+
+React is just a library
+
+
