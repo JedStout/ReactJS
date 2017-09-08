@@ -19,6 +19,7 @@ Angular is googles competition with React
 
 Server side rendering
 
-React is just a library
+React is just a library, the best library in the world!
+
 
 
