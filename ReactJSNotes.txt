@@ -23,3 +23,45 @@ React is just a library, the best library in the world!
 
 
 
+
+
+import React from 'react';
+
+class Counter extends React.Component {
+    state = {value: 0 }
+    
+    inc = () => {
+        this.setState({ val: this.state.val + 1 })
+    }
+    dec = () => {
+        this.setState({ val: this.state.val - 1 })
+    }
+    render() {
+        return (
+            <div>
+                <h2>{this.state.value}</h2>
+                <button onClick={this.inc}>+</button>
+                <button onClick={this.dec}>-</button>
+            </div>
+        )
+    }
+}
+
+
+class List extends React.Component {
+    render() {
+        let items = this.props.items.map( (item, i) => {
+            return ( <li key={i}>{item}</li> );
+        });
+
+        return {
+            <ul style={{ listStyle: 'none' }}>
+                {items}
+            </ul>
+        }
+    }
+}
+
+
+
+Style it like a link instead of a link without an href for blind people expecting links to navigate to a new page.
